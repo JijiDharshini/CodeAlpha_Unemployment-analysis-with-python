@@ -50,11 +50,6 @@ This project analyzes unemployment trends across various Indian states using rea
 
 ---
 
-## 📄 Full Report (All Plots in One File)
-
-[Download Visualization Summary (PDF)](unemployment_analysis_summary.pdf)
-
----
 
 ## 📌 Key Insights
 
@@ -66,3 +61,17 @@ This project analyzes unemployment trends across various Indian states using rea
 ---
 
 ## 🗂 Folder Structure
+Unemployment-Analysis/
+│
+├── Unemployment_Analysis.ipynb              # 📓 Your full analysis notebook (Colab or Jupyter)
+├── Unemployment_Rate_upto_11_2020.csv       # 📊 The dataset used
+├── README.md                                # 📝 Project documentation
+├── unemployment_analysis_summary.pdf        # 📄 Combined output PDF with all visualizations
+│
+├── images/                                   # 📁 Folder for saved charts
+│   ├── unemployment_trend.png
+│   ├── covid_impact_by_region.png
+│   ├── monthly_trend_boxplot.png
+│   └── regionwise_unemployment_bar.png
+│
+└── .gitignore                                # (Optional) Ignore temporary files like .ipynb_checkpoints
